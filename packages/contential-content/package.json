@@ -1,6 +1,6 @@
 {
   "name": "@contential/content",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "JavaScript client for Contential.",
   "author": "Marcel Thomas",
   "license": "MIT",
