@@ -21,7 +21,7 @@ JavaScript SDK for Contential content and GraphQL APIs. It helps you to easily a
 ## Installation
 
 ```
-npm install contential
+npm install @contential/content
 ```
 
 ## Contential client
@@ -29,7 +29,7 @@ npm install contential
 Use the `createClient` method to create an authenticated client that connects to your data.
 
 ```javascript
-const { createClient } = require('contential');
+const { createClient } = require('@contential/content');
 const contential = createClient({
   apiKey: 'e347fea300b50578870fda807ec455',
 });
@@ -48,7 +48,7 @@ The Contential APIs use API keys to authenticate requests. You can view and mana
 | data     | String \| Object | My record data | true     | The data for the record. Can be a string or an object. |
 
 ```javascript
-const { createClient } = require('contential');
+const { createClient } = require('@contential/content');
 const contential = createClient({
   apiKey: 'e347fea300b50578870fda807ec455',
 });

@@ -9,7 +9,8 @@
   "prepublish": "npm run build",
   "scripts": {
     "build": "babel src -d dist",
-    "test": "echo testing server with version: $npm_package_version"
+    "test": "echo testing server with version: $npm_package_version",
+    "publish": "npm publish --access public"
   },
   "dependencies": {
     "@babel/runtime": "^7.8.3",
