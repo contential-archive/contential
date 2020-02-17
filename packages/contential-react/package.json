@@ -1,6 +1,6 @@
 {
   "name": "@contential/react",
-  "version": "0.0.0",
+  "version": "0.0.11",
   "description": "Contential React Library",
   "main": "index.js",
   "author": "Marcel Thomas",
