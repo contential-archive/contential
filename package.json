@@ -6,6 +6,7 @@
   "scripts": {
     "build": "lerna run build",
     "test": "lerna run test",
+    "publish": "lerna run publish --scope=@contential/content",
     "new-version": "lerna version --conventional-commits --yes",
     "diff": "lerna diff"
   },
@@ -13,10 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/contential/contential.git"
   },
-  "bugs": {
-    "url": "https://github.com/contential/contential/issues"
-  },
-  "homepage": "https://github.com/contential/contential#readme",
+  "homepage": "https://contential.io",
   "devDependencies": {
     "lerna": "^3.20.2"
   }
