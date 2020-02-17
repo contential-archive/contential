@@ -1,6 +1,6 @@
 {
   "name": "@contential/content",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "JavaScript client for Contential.",
   "author": "Marcel Thomas",
   "license": "MIT",
@@ -9,8 +9,7 @@
   "prepublish": "npm run build",
   "scripts": {
     "build": "babel src -d dist",
-    "test": "echo testing server with version: $npm_package_version",
-    "publish": "npm publish --access public"
+    "test": "echo testing server with version: $npm_package_version"
   },
   "dependencies": {
     "@babel/runtime": "^7.8.3",
@@ -27,12 +26,6 @@
     "@babel/preset-env": "^7.7.7",
     "nodemon": "^1.18.9"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/contential/contential-js.git"
-  },
-  "bugs": {
-    "url": "https://github.com/contential/contential-js/issues"
-  },
-  "homepage": "https://github.com/contential/contential-js#readme"
+  "homepage": "https://contential.io",
+  "repository": "https://github.com/contential/contential/tree/master/packages/contential-content"
 }
