@@ -1,0 +1,11 @@
+{
+  "name": "@contential/react",
+  "version": "0.0.0",
+  "description": "Contential React Library",
+  "main": "index.js",
+  "author": "Marcel Thomas",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo testing server with version: $npm_package_version"
+  }
+}

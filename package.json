@@ -1,0 +1,24 @@
+{
+  "name": "contential",
+  "version": "0.0.0",
+  "author": "Marcel Thomas",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contential/contential.git"
+  },
+  "bugs": {
+    "url": "https://github.com/contential/contential/issues"
+  },
+  "homepage": "https://github.com/contential/contential#readme",
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}
