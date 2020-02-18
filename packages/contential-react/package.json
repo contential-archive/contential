@@ -1,12 +1,14 @@
 {
   "name": "@contential/react",
-  "version": "0.0.11",
+  "version": "0.0.13",
   "description": "Contential React Library",
   "main": "./dist/index.js",
   "author": "Marcel Thomas",
   "license": "MIT",
+  "prepublish": "npm run build",
   "scripts": {
     "build": "babel src -d dist",
+    "publish": "npm publish --access public",
     "test": "echo testing server with version: $npm_package_version"
   },
   "devDependencies": {

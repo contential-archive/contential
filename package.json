@@ -3,17 +3,15 @@
   "author": "Marcel Thomas",
   "license": "MIT",
   "private": false,
+  "description": "React library for Contential.",
   "scripts": {
     "build": "lerna run build",
     "test": "lerna run test",
-    "publish": "lerna run publish --scope=@contential/content",
+    "publish": "lerna run publish --scope=@contential/react",
     "new-version": "lerna version --conventional-commits --yes",
     "diff": "lerna diff"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/contential/contential.git"
-  },
+  "repository": "https://github.com/contential/contential/tree/master/packages/contential-content",
   "homepage": "https://contential.io",
   "devDependencies": {
     "lerna": "^3.20.2"
